@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — Aura Reader</title>
+  <meta name="description" content="Política de privacidad oficial de Aura Reader (PDF & EPUB). Privacidad por diseño, sin recopilación de datos personales y almacenamiento 100% local.">
+  <meta name="theme-color" content="#0C1933">
+  <meta name="robots" content="index, follow">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; base-uri 'self';">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #070E1B;
+      --card-bg: #0E1C36;
+      --card-border: rgba(143, 181, 247, 0.15);
+      --text-main: #E2E8F0;
+      --text-muted: #94A3B8;
+      --accent-gold: #E5A93C;
+      --accent-gold-light: #FCD34D;
+      --accent-blue: #8FB5F7;
+      --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --font-serif: 'Playfair Display', Georgia, serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.75;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: rgba(12, 25, 51, 0.9);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--card-border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 1rem 2rem;
+    }
+    .nav-container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: #FFF;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+    .brand-icon {
+      width: 34px;
+      height: 34px;
+      background: linear-gradient(135deg, #152640, #0C1933);
+      border: 1px solid var(--accent-gold);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent-gold);
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      box-shadow: 0 0 12px rgba(229, 169, 60, 0.25);
+    }
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--accent-gold-light);
+    }
+    main {
+      flex: 1;
+      max-width: 860px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem;
+      width: 100%;
+    }
+    .doc-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(229, 169, 60, 0.12);
+      color: var(--accent-gold);
+      border: 1px solid rgba(229, 169, 60, 0.3);
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      letter-spacing: 0.04em;
+    }
+    h1 {
+      font-family: var(--font-serif);
+      font-size: 2.2rem;
+      color: #FFF;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.01em;
+    }
+    .meta-info {
+      color: var(--accent-blue);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    h2 {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      color: var(--accent-gold-light);
+      margin: 2rem 0 1rem 0;
+    }
+    h3 {
+      font-size: 1.1rem;
+      color: #FFF;
+      margin: 1.25rem 0 0.5rem 0;
+    }
+    p {
+      margin-bottom: 1.2rem;
+      color: var(--text-main);
+    }
+    ul {
+      margin: 0.8rem 0 1.2rem 1.5rem;
+      color: var(--text-main);
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    strong {
+      color: #FFF;
+    }
+    .highlight-box {
+      background: rgba(21, 38, 64, 0.7);
+      border-left: 4px solid var(--accent-gold);
+      padding: 1.25rem 1.5rem;
+      border-radius: 0 10px 10px 0;
+      margin: 1.5rem 0;
+    }
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 3rem;
+      background: rgba(7, 14, 27, 0.8);
+    }
+    footer a {
+      color: var(--accent-blue);
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 640px) {
+      .doc-card { padding: 1.5rem; }
+      h1 { font-size: 1.8rem; }
+      .nav-links { gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="brand">
+        <div class="brand-icon">A</div>
+        <span>Aura Reader</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="privacy.html" class="active">Privacidad</a>
+        <a href="terms.html">Términos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="doc-card">
+      <div class="badge">🛡️ PRIVACIDAD POR DISEÑO</div>
+      <h1>Política de Privacidad</h1>
+      <div class="meta-info">
+        <strong>Última actualización:</strong> 25 de septiembre de 2026 &bull; <strong>App:</strong> Aura (com.aura.reader) &bull; <strong>Contacto:</strong> soporte@aurareader.app
+      </div>
+
+      <div class="highlight-box">
+        <p><strong>Compromiso Fundamental:</strong> Aura es un lector de libros digitales (PDF y EPUB) desarrollado bajo el principio estricto de privacidad absoluta. Tus libros y notas jamás salen de tu dispositivo móvil.</p>
+      </div>
+
+      <h2>1. Resumen de Privacidad</h2>
+      <ul>
+        <li><strong>Sin recopilación de datos personales:</strong> No recopilamos, transmitimos, almacenamos ni vendemos información que identifique a nuestros usuarios.</li>
+        <li><strong>Almacenamiento 100% local:</strong> Todos los documentos, configuraciones, marcadores, subrayados y avances de lectura residen exclusivamente en la memoria interna de tu dispositivo.</li>
+        <li><strong>Cero rastreo invasivo:</strong> No utilizamos SDKs de rastreo cruzado, huella digital ni analíticas externas de comportamiento.</li>
+      </ul>
+
+      <h2>2. Permisos del Dispositivo y Uso</h2>
+      <h3>A. Acceso a Archivos y Documentos (Storage Access Framework - SAF)</h3>
+      <p>Aura emplea el selector de documentos y directorios nativo de Android (SAF). La aplicación <strong>no solicita permisos generales de almacenamiento</strong> (<code>READ_EXTERNAL_STORAGE</code>, <code>WRITE_EXTERNAL_STORAGE</code> ni <code>MANAGE_EXTERNAL_STORAGE</code>). Únicamente accede de manera temporal y segura a las carpetas o archivos que tú seleccionas explícitamente.</p>
+
+      <h3>B. Conexión a Internet (<code>android.permission.INTERNET</code>)</h3>
+      <p>Utilizado exclusivamente para:</p>
+      <ul>
+        <li><strong>Consulta de Diccionario:</strong> Solicitudes directas y cifradas (HTTPS) a la Real Academia Española (RAE) u otras fuentes oficiales cuando consultas voluntariamente el significado de una palabra.</li>
+        <li><strong>Verificación de Suscripciones:</strong> Comunicación segura con los servidores de Google Play Billing.</li>
+      </ul>
+
+      <h2>3. Almacenamiento Local de Datos</h2>
+      <p>Aura gestiona localmente en el dispositivo:</p>
+      <ul>
+        <li><strong>Base de datos local (Isar DB):</strong> Metadatos de lectura, última página leída, progreso porcentual, marcadores y fragmentos resaltados.</li>
+        <li><strong>Preferencias locales (SharedPreferences):</strong> Preferencias de personalización (tamaño de tipografía, paleta de color, espaciado de renglones, columnas de cuadrícula).</li>
+        <li><strong>Caché temporal:</strong> Miniaturas de portadas y renderizado de páginas para lectura veloz sin retardos. Puede borrarse en cualquier momento desde los ajustes del sistema.</li>
+      </ul>
+
+      <h2>4. Servicios de Terceros y Publicidad</h2>
+      <p>Aura se integra únicamente con componentes oficiales de la plataforma Android:</p>
+      <ul>
+        <li><strong>Google Play Billing:</strong> Procesamiento seguro de suscripciones Aura Pro a través de la pasarela nativa de Google. Aura no recopila ni almacena información bancaria ni de tarjetas de crédito.</li>
+        <li><strong>Google Mobile Ads (AdMob):</strong> En el nivel gratuito, la aplicación puede mostrar anuncios gestionados por Google AdMob con métricas de diagnóstico no intrusivas. Los suscriptores de <strong>Aura Pro</strong> disfrutan de una experiencia completamente libre de anuncios.</li>
+        <li><strong>Sin rastreadores de terceros:</strong> No integramos Facebook SDK, AppsFlyer ni herramientas de telemetría de terceros.</li>
+      </ul>
+
+      <h2>5. Menores de Edad</h2>
+      <p>La aplicación no recopila información personal de ningún usuario, cumpliendo rigurosamente con las normativas COPPA y GDPR-K. Es apta y segura para todas las edades.</p>
+
+      <h2>6. Cambios en esta Política</h2>
+      <p>Cualquier actualización de esta política se publicará en esta misma página web oficial y en la ficha de Google Play Store.</p>
+
+      <h2>7. Contacto y Soporte</h2>
+      <p>Si tienes preguntas o inquietudes sobre la seguridad o privacidad de Aura Reader, contáctanos directamente:</p>
+      <ul>
+        <li><strong>Correo electrónico:</strong> <a href="mailto:soporte@aurareader.app" style="color: var(--accent-blue);">soporte@aurareader.app</a></li>
+        <li><strong>Sitio web:</strong> <a href="https://aurareader.app" style="color: var(--accent-blue);">https://aurareader.app</a></li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Aura Reader. Todos los derechos reservados. | <a href="privacy.html">Privacidad</a> | <a href="terms.html">Términos</a></p>
+  </footer>
+</body>
+</html>
